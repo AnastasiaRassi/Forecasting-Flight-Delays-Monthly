@@ -1,10 +1,9 @@
 pandas 
 numpy
-scipy 
 pyarrow
 matplotlib  
-scikit-learn 
-statsmodels 
-holidays 
-polars
+scikit-learn  
 seaborn
+feature_engine
+xgboost
+holidays
