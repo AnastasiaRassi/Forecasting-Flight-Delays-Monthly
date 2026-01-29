@@ -7,3 +7,5 @@ seaborn
 feature_engine
 xgboost
 holidays
+catboost
+optuna
