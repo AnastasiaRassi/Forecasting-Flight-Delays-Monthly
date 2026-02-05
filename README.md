@@ -6,14 +6,14 @@ This repository walks through a complete forecasting workflow, from raw data thr
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Flight delays are a persistent challenge for airlines, airports, and passengers. Accurately forecasting delay volumes at a **monthly level** can help with:
 
-- Staff planning 📋
-- Resource allocation 🛫
-- Customer service readiness 🙋
-- Budgeting and risk planning 💰
+- Staff planning 
+- Resource allocation 
+- Customer service readiness 
+- Budgeting and risk planning 
 
 This project uses historical delay data and regression modeling to estimate future delay counts with substantial predictive power.
 
@@ -31,7 +31,7 @@ This project uses historical delay data and regression modeling to estimate futu
 ```
 ---
 
-## 🧠 Data Description
+## Data Description
 
 The dataset includes monthly summaries of flights and delays from all U.S. carriers and airports, with features such as:
 
@@ -44,7 +44,7 @@ Preprocessing steps include cleaning, feature extraction, and cyclical encoding 
 
 ---
 
-## 🔎 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 We investigate:
 
@@ -56,13 +56,13 @@ Visualizations are provided via notebooks to illustrate patterns and support fea
 
 ---
 
-## 🛠 Feature Engineering
+## Feature Engineering
 
 Time features are encoded cyclically (e.g., month via sine/cosine) to capture seasonality. Additional engineered variables improve model compatibility with temporal patterns.
 
 ---
 
-## 🤖 Modeling & Evaluation
+## Modeling & Evaluation
 
 Both bagging and boosting regression models (including **Random Forest** and **CatBoost**) with optimized hyperparameters, using **Optuna**, are trained and validated.
 
@@ -79,7 +79,7 @@ These results show the model explains ~80% of variance and delivers interpretabl
 
 ---
 
-## 📊 Visualization Highlights
+## Visualization Highlights
 
 The repository includes visualizations for:
 
@@ -104,7 +104,7 @@ By forecasting delays with ~80% explained variance, airlines and airports gain a
 
 ---
 
-## 📈 Next Steps
+## Next Steps
 
 Potential enhancements include:
 
@@ -115,7 +115,7 @@ Potential enhancements include:
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 Install the required Python libraries:
 
@@ -132,5 +132,6 @@ Thanks to all data contributors and open‑source tooling used throughout this p
 This project was developed as part of a comprehensive time‑series forecasting and machine learning workflow — showcasing real‑world modeling, validation, and business reasoning.
 
 
-Happy forecasting! ✈️📊
+Happy forecasting! 
+
 
